@@ -18,6 +18,7 @@ const ThirdP = styled.p`
     font-family: ubuntu, sans-serif; 
 `;
 
+
 const Profile = () => {
     return (
         <div>
