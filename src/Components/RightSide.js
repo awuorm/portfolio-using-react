@@ -21,6 +21,10 @@ const RightProfile = () => {
 <p>Fixed data engineer at Adrian Kenya Limited. My day to day activities includes the deployment, installation and integration of fixed internet and MPLS for Safaricom enterprise clients using various last mile telecommunication technologies such as fibre, WIMAX, LTE and microwave. The job description also includes customer engagement, decommissioning of old links, link audits and link support in case of network failure for Kiambu County in Central Kenya.</p>
             <div>
                 <p>Projects</p>
+                <p>Skills</p>
+                    <li> Web development: Experience in HTML, CSS and Javascript</li>
+                    <li>Networks: Experience in design and implementation of enterprise networks</li>
+              
             </div>
         </RightDiv>
     )
