@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import ProfileButton from "./Button";
+
 
 const FirstP = styled.span`
     font-size: 3em;
@@ -19,12 +21,14 @@ const ThirdP = styled.p`
 `;
 
 
-const Profile = () => {
+const Profile = (props) => {
+    console.log("profile props", props)
     return (
         <div>
         <FirstP>Hey There! I am </FirstP>
         <SecP>Mildred Awuor</SecP>
         <ThirdP>I am passionate about web development and  creating products that solve problems</ThirdP>
+        <ProfileButton onClick = {props.onClick} />
         </div>
     )
 }

@@ -12,11 +12,16 @@ const PDiv = styled.div`
     align-items:center;
 `;
 
+
+const buttonClicked = (event) => {
+       return event.target.parentNode.style.display = "none";
+}
+
 function App() {
   return (
     <PDiv className="App">
       <Nav />
-      <Profile/>
+      <Profile onClick={buttonClicked} />
       <Footer />
     </PDiv>
   );
