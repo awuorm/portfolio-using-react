@@ -4,7 +4,7 @@ import LeftProfile from "./LeftSide";
 import RightProfile from "./RightSide";
 
 const LeftStyles = styled.div`
-max-width:50vw;
+max-width:50%;
 `;
 
 const ProfileStyles = styled.div`

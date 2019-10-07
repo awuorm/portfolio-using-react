@@ -20,6 +20,8 @@ const SecondStyles = styled.div`
 const buttonClicked = event => {
   event.target.parentNode.style.display = "none";
   document.querySelector(".second-profile").style.display = "block";
+  document.querySelector(".App").style.width = "1300px";
+
   
 };
 
@@ -31,7 +33,6 @@ function App() {
       <SecondStyles  className="second-profile" >
         <SecondProfile />
       </SecondStyles>
-
       <Footer />
     </PDiv>
   );
