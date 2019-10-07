@@ -21,7 +21,7 @@ const Nav = () => {
         
         <NavWrapper>
             <NavAnchor href="https://www.linkedin.com/in/mildred-awuor-605727a5/">LinkedIn</NavAnchor>
-            <NavAnchor>Resume</NavAnchor>
+            <NavAnchor href="https://drive.google.com/open?id=1Zt6JvWoQMGI46QBHTPs30-AWi1m80D1z">Resume</NavAnchor>
             <NavAnchor href="https://github.com/awuorm">Github</NavAnchor>
             <NavAnchor href="https://twitter.com/gentlestrength_">Twitter</NavAnchor>
             
