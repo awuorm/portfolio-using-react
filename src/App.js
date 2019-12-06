@@ -5,6 +5,8 @@ import Nav from "./Components/Navigation";
 import Footer from "./Components/Footer";
 import Profile from "./Components/PersonalProfile";
 import SecondProfile from "./Components/Portfolio";
+import { Route } from "react-router-dom";
+import Projects from "./Components/Projects";
 
 const PDiv = styled.div`
   display: flex;
@@ -17,22 +19,17 @@ const SecondStyles = styled.div`
   display: none;
 `;
 
-const buttonClicked = event => {
-  event.target.parentNode.style.display = "none";
-  document.querySelector(".second-profile").style.display = "block";
-  document.querySelector(".App").style.width = "1300px";
 
-  
-};
 
 function App() {
   return (
     <PDiv className="App">
       <Nav />
-      <Profile onClick={buttonClicked} />
-      <SecondStyles  className="second-profile" >
-        <SecondProfile />
+      <Route exact path="/" render={props => <Profile  {...props} />} />
+      <SecondStyles className="second-profile">
+        <Route exact path="/personal-profile" render={props => <SecondProfile {...props} />} />
       </SecondStyles>
+      <Route exact path="/projects" render={props => <Projects {...props} />} />
       <Footer />
     </PDiv>
   );
