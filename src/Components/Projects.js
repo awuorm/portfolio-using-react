@@ -11,19 +11,19 @@ const Projects = props => {
       img: rest_passport,
       title: "Marketing page for restaurant passport app",
       github: "https://github.com/awuorm/Build-1",
-      webiste: "https://restaurant-passport-marketing.netlify.com"
+      website: "https://restaurant-passport-marketing.netlify.com"
     },
     {
       img: friend_finder,
       title: "Friendfinder app",
       github: "https://github.com/awuorm/friend-finder-frontend",
-      website: "https://friend-finder-frontend-app.netlify.com/"
+      website: "https://friend-finder-frontend-app.netlify.com"
     },
     {
       img: dark_mode,
       title: "Crypto tracker app",
       github: "https://github.com/awuorm/dark-mode",
-      website: "https://coins-dark-mode.netlify.com/"
+      website: "https://coins-dark-mode.netlify.com"
     }
   ];
   return (
@@ -33,8 +33,8 @@ const Projects = props => {
           <div key={index}>
             <img src={project.img} alt="restaurant" />
             <h5>{project.title}</h5>
-            <a href={project.github}>Github repo</a>
-            <a href={project.webiste}>Deployed website</a>
+            <a href={project.github}>Github repo</a> <br/>
+            <a href={project.website}>Deployed website</a>
           </div>
         );
       })}
