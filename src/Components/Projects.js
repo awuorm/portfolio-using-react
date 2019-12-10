@@ -24,6 +24,12 @@ const Projects = props => {
       title: "Crypto tracker app",
       github: "https://github.com/awuorm/dark-mode",
       website: "https://coins-dark-mode.netlify.com"
+    },
+    {
+        img: react_bubbles,
+        title: "React bubbles app",
+        github: "https://github.com/awuorm/react-bubbles",
+        website: "",
     }
   ];
   return (
