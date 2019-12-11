@@ -10,6 +10,7 @@ max-width:50%;
 const ProfileStyles = styled.div`
 display: flex;
 justify-content: space-between;
+width:80vw;
 `;
 
 const SecondProfile = () => {

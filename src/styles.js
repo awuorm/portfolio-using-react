@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledProjectsTitle = styled.div`
-  width: 95vw;
+  width: 80vw;
   height: 10%;
   padding: 1 em;
   margin-bottom: 0.5em;
@@ -21,11 +21,11 @@ export const StyledProjects = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 1em;
-  width: 100%;
+  /* width: 100%; */
   div {
     background: white;
     padding: 0.7em;
-    margin: 0.7em;
+    /* margin: 0.7em; */
     border-radius: 1em;
     color: darkgray;
     img {
