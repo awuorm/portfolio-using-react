@@ -7,7 +7,7 @@ const NavWrapper = styled.nav`
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  width:100vw;
+  width:98vw;
 `;
 
 const NavAnchor = styled.a`

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledProjectsTitle = styled.div`
-  width: 100%;
+  width: 98vw;
   height: 10%;
   padding: 1 em;
   margin-bottom: 0.5em;
@@ -24,7 +24,7 @@ export const StyledProjects = styled.div`
   div {
     background: white;
     padding: 0.7em;
-    margin-left: 3em;
+    margin: 0.7em;
     border-radius: 1em;
     color: darkgray;
     img {
