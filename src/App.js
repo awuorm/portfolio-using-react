@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import "./App.css";
-import Nav from "./Components/Navigation";
+import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
-import Profile from "./Components/PersonalProfile";
-import SecondProfile from "./Components/Portfolio";
+import Profile from "./Components/Profile";
+import SecondProfile from "./Components/SecondProfile";
 import { Route } from "react-router-dom";
 import Projects from "./Components/Projects";
 

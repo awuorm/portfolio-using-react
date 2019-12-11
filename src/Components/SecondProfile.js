@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import LeftProfile from "./LeftSide";
-import RightProfile from "./RightSide";
+import LeftProfile from "./LeftProfile";
+import RightProfile from "./RightProfile";
 
 const LeftStyles = styled.div`
 max-width:50%;

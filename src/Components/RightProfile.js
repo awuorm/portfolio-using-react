@@ -4,12 +4,8 @@ import { NavLink } from "react-router-dom";
 
 const RightDiv = styled.div`
   background-color: white;
-  width: 70%;
+  width: 60vw;
   height: 70vh;
-`;
-const Image = styled.img`
-  width: 100%;
-  height: 100%;
 `;
 
 const RightProfile = () => {
