@@ -4,6 +4,8 @@ import { StyledProjects } from "../styles";
 import rest_passport from "../imgs/rest_passport.png";
 import friend_finder from "../imgs/friend_finder.png";
 import dark_mode from "../imgs/dark_mode.png";
+import better_prof from "../imgs/better_prof.png";
+
 
 const Projects = props => {
   const deployedProjects = [
@@ -21,15 +23,15 @@ const Projects = props => {
     },
     {
       img: dark_mode,
-      title: "Crypto tracker app",
+      title: "Crypto tracker web app",
       github: "https://github.com/awuorm/dark-mode",
       website: "https://coins-dark-mode.netlify.com"
     },
     {
-        img: react_bubbles,
-        title: "React bubbles app",
-        github: "https://github.com/awuorm/react-bubbles",
-        website: "",
+        img: better_prof,
+        title: "Better professor web app",
+        github: "https://github.com/better-professor/frontend",
+        website: "https://better-professor-bw.netlify.com",
     }
   ];
   return (

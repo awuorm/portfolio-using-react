@@ -16,7 +16,7 @@ const PDiv = styled.div`
 `;
 
 const SecondStyles = styled.div`
-  display: none;
+  /* display: none; */
 `;
 
 

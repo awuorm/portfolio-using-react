@@ -16,7 +16,7 @@ const RightProfile = () => {
   return (
     <RightDiv>
       <h5>Personal profile here!</h5>
-      {/* <p>Experience</p>
+      <p>Experience</p>
       <p>Enterprise Solutions Architect</p>
       <p>
         Enterprise solutions architect at Adrian Kenya Limited. My day to day
@@ -46,7 +46,7 @@ const RightProfile = () => {
       </li>
       <li>
         Networks: Experience in design and implementation of enterprise networks
-      </li> */}
+      </li>
       <button>
         <NavLink to="/projects">view projects</NavLink>{" "}
       </button>
